@@ -1,3 +1,5 @@
+# with memo - n, n
+# without memo 2^n, n
 store = {}
 def fabo(n):
     if n <= 1:
@@ -13,6 +15,8 @@ fabo(500)
 for x, y in sorted(store.items()):
     print(x, y)
 
+
+# n, 1
 n = 100
 a = -1
 b = 1
